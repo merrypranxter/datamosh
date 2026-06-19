@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Gallery outputs (large binary renders) — keep the dir, ignore contents
+gallery/*
+!gallery/README.md
+!gallery/.gitkeep
+
+# Editor
+.vscode/
+.idea/
